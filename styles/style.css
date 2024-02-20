@@ -2,7 +2,7 @@
     background-image: url('../images/banner.png');
     background-image: cover;
     height: 550px;
-    width: 1170px;
+    /* width: 1170px; */
 }
 #greenline{
     height: 250px;

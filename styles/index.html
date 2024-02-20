@@ -14,7 +14,7 @@
 
 <body>
   <header>
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-base-100 w-[85%] mx-auto">
       <div class="navbar-start">
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -47,12 +47,12 @@
     </div>
     <!-- 2nd step  -->
 
-    <div class="mg-auto  ">
-      <div id="banner" class="card w-96 bg-base-100 shadow-xl bg-cover mx-auto ">
+    <div class="mg-auto ">
+      <div id="banner" class="card w-[85%] bg-base-100 shadow-xl bg-cover mx-auto ">
         <div class="card-body my-auto space-y-4 mt-20">
-          <h2 class="card-title text-6xl font-bold text-[#FFFFFF] mx-auto m-auto"> End-to-End Travel with</h2>
-          <h2 class="card-title text-6xl font-bold text-[#1DD100] mx-auto">P Paribahan</h2>
-          <p class="mx-auto  h-8 w-1/2 text-center text-[#FFFFFF] text-lg font-normal tracking-normal ">When the buses
+          <h2 class="card-title text-2xl lg:text-6xl font-extrabold lg:font-bold text-[#FFFFFF] mx-auto m-auto"> End-to-End Travel with</h2>
+          <h2 class="card-title text-2xl lg:text-6xl font-extrabold lg:font-bold text-[#1DD100] mx-auto">P Paribahan</h2>
+          <p class="mx-auto  h-8 lg:w-1/2 text-center text-[#FFFFFF] text-lg font-normal tracking-normal ">When the buses
             leave the stand, it becomes quiet. But when another bus comes, it becomes busier again.</p>
           <div class="card-actions mt-0 ">
            <a class="mx-auto" href="#paribahan"> <button class="btn text-[#030712] bg-[#1DD100] text-xl font-bold mx-auto ">Buy Tickets</button></a>
@@ -65,46 +65,46 @@
 
   <main>
 
-    <section class="mx-auto">
+    <section class="mx-auto w-[85%] mt-5">
       <h1 class="mx-auto text-4xl font-bold text-center">Best offers for you </h1>
-      <section class=" flex  flex-cols-2 justify-center gap-20  mt-5">
-        <div class="card w-96 bg-base-100 shadow-xl flex flex-row bg-[#FFBF0F]">
-          <div class="card-body flex-1 w-52  ">
+      <section class=" flex  lg:flex-cols-2 justify-between  mt-10">
+        <div class="card w-full lg:w-[42%] bg-base-100  shadow-xl grid grid-cols-8 lg:grid-cols-12 bg-[#FFBF0F]">
+          <div class="card-body col-span-4 lg:col-span-7  ">
             <h1 class="text-lg font-extrabold  leading-9"><span>15%</span>OFF</h1>
             <p class="text-sm font-medium  tracking-normal w-40 h-1">on your next purchase</p>
             <p class="text-[#03071299]"> use by January 2024 </p>
           </div>
-          <div class="flex-1">
+          <div class="col-span-1 lg:col-span-2">
             <img class="h-52" src="../images/cupon-devider.png" alt="">
           </div>
-          <div class="flex-1 my-auto mx-auto text-left">
+          <div class="col-span-3 lg:col-span-3 my-auto mx-auto text-left">
             <h1 class="text-xl font-bold  leading-9">NEW15</h1>
             <p class="w-32">Coupon Code</p>
           </div>
         </div>
         <!-- 2nd card  -->
-        <div class="card w-96 bg-base-100 shadow-xl flex flex-row bg-[#F78C9C]">
-          <div class="card-body flex-1 w-52  ">
+        <div class="card w-full lg:w-[42%] bg-base-100 shadow-xl grid grid-cols-12 bg-[#F78C9C]">
+          <div class="card-body col-span-7 w-52  ">
             <h1 class="text-lg font-extrabold  leading-9"><span>20%</span>OFF</h1>
             <p class="text-sm font-medium  tracking-normal w-40 h-1">on your next purchase</p>
             <p class="text-[#03071299]"> use by January 2024 </p>
           </div>
-          <div class="flex-1">
+          <div class="col-span-2">
             <img class="h-52" src="../images/cupon-devider.png" alt="">
           </div>
-          <div class="flex-1 my-auto mx-auto text-left">
+          <div class="col-span-3 my-auto mx-auto text-left">
             <h1 class="text-xl font-bold  leading-9">Couple 20</h1>
             <p class="w-32 ">Coupon Code</p>
           </div>
         </div>
 
       </section>
-      <button class=" flex mx-auto mt-5 btn text-xl font-bold text-center text-[#1DD100] border-1 border-[#1DD100]">See
+      <button class=" flex mx-auto mt-10 btn text-xl font-bold text-center text-[#1DD100] border-1 border-[#1DD100]">See
         All Offers</button>
     </section>
 
     <!-- paribahann section  -->
-    <section id="paribahan" class="mt-5">
+    <section id="paribahan" class=" w-[85%] mx-auto mt-5">
 
       <h1 class="text-center font-extrabold text-4xl">R.H Paribahan</h1>
       <p class="text-[#03071299] text-center h-12 w-1/2 justify-center mx-auto mt-4">Yes, you can run unit tests and
@@ -154,7 +154,7 @@
           <div class="col-span-3 rounded-l-2xl my-auto items-center">
         <div class="flex flex-col justify-center h-full items-center">
               <img class="h-10 w-10 mx-auto" src="../images/fare.png" alt="">
-          <h1 class="text-xl font-extrabold">550 Taka</h1>
+          <p  class="text-xl font-extrabold"><span id="price">550</span> Taka</p>
           <p class="mx-auto">Per Seat</p>
          </div>
           </div>
@@ -207,7 +207,7 @@
   </section>
   
     <!-- 2nd div  -->
-  <section class="col-span-5 p-5">
+  <secDtion class="col-span-5 p-5">
     <h1 class="font-bold text-2xl mt-5 mb-4">Select Your Seat</h1>
     <hr style="border-style:dotted;"> 
     <div class="bg-[#f8f8f7] h-[330px] rounded-lg mt-4 p-5">
@@ -220,7 +220,7 @@
       <hr style="border-style:dotted;"> 
       <!-- input text here - -->
       
-     <div class="mt-3 inner-p" id="inner-p">
+     <div class="mt-3 inner-para" id="inner-para">
 
      </div>
      <p class="border-dashed border-[#03071233] border"></p> 
@@ -253,13 +253,15 @@
 <dialog id="my_modal_1" class="modal">
   <div class="modal-box flex justify-center items-center flex-col">
     <img class="mx-auto" src="../images/success.png" alt="">
-    <h3 class="font-bold text-lg text-[#1DD100] mx-auto text-center mt-1">Success</h3>
-    <p class="py-2 text-center">Thank you for Booking Our Bus Seats. We are working hard to find the best service and deals for you.</p>
-    <p class="text-center">Shortly you will find a confirmation in your email.</p>
+    <h3 class="font-bold text-2xl text-[#1DD100] mx-auto text-center mt-1">Success</h3>
+    <div class="flex flex-col justify-center items-center space-y-1">
+      <p class="py-2 text-center text-xlfont-bold">Thank you for Booking Our Bus Seats. We are working hard to find the best service and deals for you.</p>
+      <p class="text-center text-lg text-[#03071299]">Shortly you will find a confirmation in your email.</p>
+    </div>
     <div class="rounded-md ">
       <form method="dialog">
         <!-- if there is a button in form, it will close the modal -->
-        <button class="btn mx-auto">Continue</button>
+        <button class="btn px-15 bg-[#27ae5fd1] text-white font-bold text-lg">Continue</button>
       </form>
     </div>
   </div>
