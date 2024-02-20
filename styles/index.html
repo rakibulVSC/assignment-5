@@ -109,52 +109,54 @@
       <h1 class="text-center font-extrabold text-4xl">R.H Paribahan</h1>
       <p class="text-[#03071299] text-center h-12 w-1/2 justify-center mx-auto mt-4">Yes, you can run unit tests and
         view the results directly within the app. The integrated testing features allow for a streamlined</p>
-      <section class="mt-5">
-        <div id="greenline" class="flex flex-row gap-20 card w-1/2 bg-base-100 shadow-xl mx-auto container bg-gray-200">
+      <section class="mt-5 ">
+        <div id="greenline" class="grid h-[500px] w-[85%] bg-[#FFFFFF] mx-auto grid-cols-12 mb-5 shadow-xl">
           <!-- 1st -->
-        <div>
-          <div id="sub-greenline" class="flex justify-between gap-10 ">
-            <div class="flex ">
-              <div class="flex">
-                <img aria-colcount="my-auto" class="w-16 h-11" src="../images/bus-logo.png" alt="">
-                <div class="flex flex-col">
+        <div class="col-span-8 rounded-r-2xl ">
+          <div id="sub-greenline" class="flex justify-between  px-2 ml-5">
+            <div class="flex gap-2 items-center">
+              <div>
+                <img  class="w-16 h-11" src="../images/bus-logo.png" alt="">
+              </div>
+                <div>
                   <h1 class="font-bold text-2xl">Greenline Paribahan</h1>
                   <p class="text-[#03071299]">Coach-009-WEB ! AC_Busines</p>
                 </div>
-              </div>
-
-            </div>
-            <button class="btn">
+              
+           </div>
+            <button class="btn bg-[#1DD10026]">
               <img src="../images/seat-green.png" alt="">
-              <span>8</span><span>Seats Left</span>
+              <span class="text-[#1DD100] "><span id="total-seat">8</span>seats Left</span>
           </div>
-          <section id="route" class="mt-5 ">
-            <div class="flex justify-between bg-slate-300 ">
-              <p class="text-[#03071299] text-left">Route</p>
-              <p class="font-medium text-base text-black">Dhaka - Sylhet</p>
+          <section id="route" class="ml-5 space-y-4 rounded-2xl bg-[#F7F8F8]">
+            <div class="flex justify-between  ">
+              <p class="text-[#03071299] text-left font-semibold text-lg">Route</p>
+              <p class="font-semibold text-lg text-black">Dhaka - Sylhet</p>
               </div>
-              <hr style="border-style:dotted;">
-            <div class="flex justify-between mt-3 bg-slate-300 ">
-              <p class="text-[#03071299] text-left">Departure Time</p>
-              <p class="font-medium text-base text-black">9:00 PM</p>
+              <p class="border-dashed border-[#03071233] border"> </p>
+            <div class="flex justify-between mt-3">
+              <p class="text-[#03071299] text-left font-semibold text-lg">Departure Time</p>
+              <p class="font-semibold text-lg  text-black">9:00 PM</p>
               </div>
-              <hr style="border-style:dotted;"> 
-            <div id="route"  class="flex justify-between mt-5 gap-0.5">
-              <button class="btn font-light text-sm">Boarding Point-Laxmipur</button>
-              <button class="btn font-light text-sm">Dropping Point-Bogura</button>
-              <button class="btn font-light text-sm">Est. Time-11 Hour</button>
+              <p class="border-dashed border-[#03071233] border"> </p>
+            <div id="route"  class="flex justify-between ">
+              <button class="btn bg-[#0307120D">Boarding Point-Laxmipur</button>
+              <button class="btn bg-[#0307120D">Dropping Point-Bogura</button>
+              <button class="btn bg-[#0307120D">Est. Time-11 Hour</button>
             </div>
           </section>
         </div>
           <!-- 2nd  -->
-          <div class="">
-            <img class="w-20 h-60" src="../images/info-devider.png" alt="">
+          <div class="cols-span-1">
+            <img class="w-full h-[240px]" src="../images/info-devider.png" alt="">
           </div>
           <!-- 3rd  -->
-          <div class="flex flex-col my-auto ">
-            <img class="h-10 w-10 mx-auto" src="../images/fare.png" alt="">
-            <h1 class="text-xl font-extrabold">550 Taka</h1>
-            <p class="mx-auto">Per Seat</p>
+          <div class="col-span-3 rounded-l-2xl my-auto items-center">
+        <div class="flex flex-col justify-center h-full items-center">
+              <img class="h-10 w-10 mx-auto" src="../images/fare.png" alt="">
+          <h1 class="text-xl font-extrabold">550 Taka</h1>
+          <p class="mx-auto">Per Seat</p>
+         </div>
           </div>
 
         </div>
@@ -164,10 +166,10 @@
 
 
    <!-- seat section  -->
-   <section class="flex">
+   <section class="grid gap-10 h-[520px] mb-20 w-[85%] bg-[#FFFFFF] mx-auto grid-cols-12 shadow-2xl">
     <!-- 1st div  -->
-    <section class="flex-1">
-      <h1 class="font-extrabold text-xl mt-5 mb-2">Select Your Seat</h1>
+    <section class="col-span-7 p-5">
+      <h1 class="font-extrabold text-2xl mt-5 mb-4">Select Your Seat</h1>
       <hr style="border-style:dotted;">
       <div class="flex justify-between mt-3 mb-3" style="width: 540px;">
        <div class="flex">
@@ -185,65 +187,71 @@
       </div>
       <hr style="border-style:dotted;">
 
-      <button class="btn flex justify-between space-x-28 "><img src="../images/tabler-icon-steering-wheel.jpeg" alt=""></button>
+    <div class="mt-6 flex justify-end">
+      <button class="btn bg-[#0307121A] px-9"><img src="../images/tabler-icon-steering-wheel.jpeg" alt=""></button>
+    </div>
    
-      <div class="grid grid-cols-4 mt-5 gap-2">
-        <button id="card" class="btn w-32"><h4>A1</h4> </button>
-        <button id="card" class="btn w-32"><h4>A2</h4> </button>
-        <button id="card" class="btn w-32"><h4>A3</h4></button>
-        <button id="card" class="btn w-32"><h4>A4</h4></button>
-      </div>  
-      <div class="grid grid-cols-4 mt-5 gap-2">
-        <button id="card" class="btn w-32"><h4>B1</h4> </button>
-        <button id="card" class="btn w-32"><h4>B2</h4> </button>
-        <button id="card" class="btn w-32"><h4>B3</h4></button>
-        <button id="card" class="btn w-32"><h4>B4</h4></button> 
-      </div> 
-      </section>
-    <!-- <div>
-      <p>|</p>
-      <p>|</p>
-      <p>|</p>
-    </div> -->
+    <div>
+      <div id="div" class="grid grid-cols-4 gap-8 mt-4">
+       <div class="btn px-10 text-[#03071299] font-inter font-semibold seats A1">A1</div> 
+       <div class="btn px-10 text-[#03071299] font-inter font-semibold seats A1">A2</div> 
+       <div class="btn px-10 text-[#03071299] font-inter font-semibold seats A3">A3</div> 
+       <div class="btn px-10 text-[#03071299] font-inter font-semibold seats A4">A4</div> 
+       <div class="btn px-10 text-[#03071299] font-inter font-semibold seats B1">B2</div> 
+       <div class="btn px-10 text-[#03071299] font-inter font-semibold seats B2">B2</div> 
+       <div class="btn px-10 text-[#03071299] font-inter font-semibold seats B3">B3</div> 
+       <div class="btn px-10 text-[#03071299] font-inter font-semibold seats B4">B4</div> 
+
+      </div>
+    </div>
+  </section>
+  
     <!-- 2nd div  -->
-  <section class="flex-1">
-    <h1 class="font-extrabold text-xl mt-5 mb-2">Select Your Seat</h1>
+  <section class="col-span-5 p-5">
+    <h1 class="font-bold text-2xl mt-5 mb-4">Select Your Seat</h1>
     <hr style="border-style:dotted;"> 
-    <div class="container">
-      <div class="grid grid-cols-3 justify-around mt-5 mb-2">
-        <p class="text-base font-bold">Seat <span class="rounded-full bg-[#1DD100]">2</span></p>
-        <p class="text-base font-bold">Class</p>
-        <p class="text-base font-bold">Price</p>
+    <div class="bg-[#f8f8f7] h-[330px] rounded-lg mt-4 p-5">
+
+      <div class="flex justify-between">
+        <p class="text-base font-bold text-[#030712]">Seat <span class="bg-[#1DD100] text-white px-2 text-[-10px] text-center ml-1 rounded-xl " id="selected-seat">0</span> </p>
+        <p class="text-base font-bold text-[#030712]">Class</p>
+        <p class="text-base font-bold text-[#030712]">Price</p>
       </div>
       <hr style="border-style:dotted;"> 
-       <div id="class">
+      <!-- input text here - -->
+      
+     <div class="mt-3 inner-p" id="inner-p">
+
+     </div>
+     <p class="border-dashed border-[#03071233] border"></p> 
+     <!-- total amount here   -->
+     <div class="flex justify-between mt-1">
+      <p class="text-[#030712] font-semibold">Total Price</p>
+      <p class="text-[#030712] font-semibold">BDT <span id="total-amount">0</span></p>
+     </div>
+    
+     <label class="input input-bordered flex items-center ga-2 mt-4"  id="label">
+      <input type="text" class="grow py-30" placeholder="Have a cupon?" name="" id="input-field">
+      <button id="apply-btn" class="btn btn-sm text-white bg-[#1DD100] gont-bold hover:bg-[#1cd100d2] ">Apply</button>
+     </label>
+     <p class="border-dashed border-[#03071233] border"></p> 
+
+     <!-- grand total  -->
+     <div class="flex justify-between mt-1 mb-4">
+     <p class="text-[#030712] font-semibold">Grand Total</p>
+     <p id="grand" class="text-[#030712] font-semibold">0</p>
      
-      </div>
-      <hr>
+     </div>
+
 
     </div>
-    <div class="grid grid-cols-3 justify-between">
-      <p>Total Price</p>
-      <p></p>
-      <p class="items-center">BDT<span>1100</span></p>
-    </div>
-    <input class="mt-5 w-96" type="text" name="" id="" placeholder="Have Any Coupon?"> <button class="btn bg-[#1DD10060]">Apply</button></input>
-    <div class="grid grid-cols-3 justify-between mt-4">
-      <p class="text-xl font-medium">Grand Total</p>
-      <p></p>
-      <p class="text-xl font-medium">BDT<span>1100</span></p>
-    </div>
-    <p class="text-base font-bold mt-2">Passenger Name*</p>
-    <input class="h-12 w-96 rounded-md mt-2" type="text" name="" id="" placeholder="Enter your name">
-    <p class="text-base font-bold mt-2">Phone Number*</p>
-    <input  class="h-12 w-96 rounded-md mt-2" type="text" name="" id="" placeholder="Enter your phone number">
-    <p class="text-base font-bold mt-2">Email ID</p>
-    <input  class="h-12 w-96 rounded-md mt-2" type="text" name="" id="" placeholder="Enter your email">
-  <br>
+
+    
+
     <!-- Open the modal using ID.showModal() method -->
-<button class="btn mt-2 w-96 bg-[#1DD100]" onclick="my_modal_1.showModal()">Next</button>
+<button class="btn mt-2 w-full bg-[#1DD100] hover:bg-[#1cd100] " onclick="my_modal_1.showModal()">Next</button>
 <dialog id="my_modal_1" class="modal">
-  <div class="modal-box">
+  <div class="modal-box flex justify-center items-center flex-col">
     <img class="mx-auto" src="../images/success.png" alt="">
     <h3 class="font-bold text-lg text-[#1DD100] mx-auto text-center mt-1">Success</h3>
     <p class="py-2 text-center">Thank you for Booking Our Bus Seats. We are working hard to find the best service and deals for you.</p>
